@@ -1,6 +1,6 @@
 @file:Suppress("FunctionName")
 
-package com.example.simplelauncher
+package com.example.simplelauncher.home
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.launcher.App
-import com.example.simplelauncher.home.HomeViewModel
 import com.google.accompanist.coil.rememberCoilPainter
 
 @ExperimentalFoundationApi

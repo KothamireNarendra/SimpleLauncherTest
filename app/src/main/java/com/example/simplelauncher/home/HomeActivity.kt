@@ -6,8 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.core.view.WindowCompat
-import com.example.simplelauncher.AllAppsListScreen
-import com.example.simplelauncher.LauncherTheme
+import com.example.simplelauncher.theme.LauncherTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @ExperimentalFoundationApi
@@ -18,7 +17,7 @@ class HomeActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+        //WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
             LauncherTheme{
                 AllAppsListScreen(mainViewModel)

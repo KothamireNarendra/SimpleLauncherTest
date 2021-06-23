@@ -1,4 +1,4 @@
-package com.example.simplelauncher
+package com.example.simplelauncher.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.lightColors
